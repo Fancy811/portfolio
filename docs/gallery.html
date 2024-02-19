@@ -2,36 +2,30 @@
 <html>
     <head>
         <title>
-            Home page
+           Gallery
         </title>  
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css" />  
-        <style>
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: black;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
-</style>  
-        
-    </head>
     <body>
-        <h1> Gallery of interests </h1>
-        <nav>
-            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>
+        <div class="navbar">
             
-        </nav>
-        
+            <div class="dropdown">                    
+                <button class="dropbtn">Menu 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    
+                    <a href="index.html">Home</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="gallery.Html">Gallery</a>
+                    <a href="about.html">About</a>
+                    
+                </div>
+            </div> 
+        </div>
+        <h1> Gallery of interests </h1>
+       
         <h2>HVAC Components and Machines:</h2>
         <figure>
             <img src="images/Alluminium.jpg" alt="First car" style="width:450px;height:300px;">
