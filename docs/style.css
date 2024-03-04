@@ -1,12 +1,12 @@
 body {
-background-color: lightblue;
+background-color: White;
   font-family: "times new roman", Times, serif;
 }
 
 
 .navbar {
   overflow: hidden;
-  background-color: #F25C00;
+  background-color: #333;
 }
 
 .navbar a {
@@ -35,13 +35,13 @@ background-color: lightblue;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #F25C00;
+  background-color: Red;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #F25C00;
+  background-color: Red;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -74,5 +74,9 @@ p {
   font-size: 20px;
 }
 
+div.b {
+    text-align: center;
+    
+}
 
         
